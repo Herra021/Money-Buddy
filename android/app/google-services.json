@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "969305779854",
+    "project_id": "moneybuddy-372a5",
+    "storage_bucket": "moneybuddy-372a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969305779854:android:07e0fa1125b7a69c35a3df",
+        "android_client_info": {
+          "package_name": "com.moneybuddy.money_buddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969305779854-4co6pre0u1emtdc43aq9h7tug3ekh7ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moneybuddy.money_buddy",
+            "certificate_hash": "3c1a63ea248a096a41ce6f9d7451ed6d9387b9a9"
+          }
+        },
+        {
+          "client_id": "969305779854-9sq0l5udep0d7bi4vdocg3lp9uaigie5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnbhqczTxNy5XKLssm51NPA5NZKw5E7go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969305779854-9sq0l5udep0d7bi4vdocg3lp9uaigie5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "969305779854-1u976i18mlacqcir4vs2b62ipo4m4cpj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.moneybuddy.moneyBuddy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
