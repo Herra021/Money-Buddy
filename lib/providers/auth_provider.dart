@@ -15,7 +15,9 @@ final authStateProvider = StreamProvider<User?>((ref) {
 
 class AuthNotifier extends StateNotifier<AsyncValue<void>> {
   final FirebaseAuth _auth;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+    serverClientId: '969305779854-9sq0l5udep0d7bi4vdocg3lp9uaigie5.apps.googleusercontent.com',
+  );
 
   AuthNotifier(this._auth) : super(const AsyncData(null));
 
