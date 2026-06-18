@@ -153,5 +153,13 @@
   "tagGetStarted": "スタート",
   "tagFastEntry": "かんたん入力",
   "tagVoiceEntry": "音声入力",
-  "tagBorrowLend": "貸し借り"
+  "tagBorrowLend": "貸し借り",
+  "resetData": "アプリデータをリセット",
+  "resetDataConfirm": "すべての取引、貸し借り記録、およびリマインダーを削除してもよろしいですか？この操作は取り消せません。",
+  "reset": "リセット",
+  "resetSuccessful": "すべてのアプリデータが正常にリセットされました。",
+  "selectLanguage": "言語を選択",
+  "selectCurrency": "通貨を選択",
+  "profile": "プロフィール",
+  "guest": "ゲスト"
 }

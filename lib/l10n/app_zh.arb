@@ -153,5 +153,13 @@
   "tagGetStarted": "立即开始",
   "tagFastEntry": "快速记账",
   "tagVoiceEntry": "语音记账",
-  "tagBorrowLend": "借贷管理"
+  "tagBorrowLend": "借贷管理",
+  "resetData": "重置应用数据",
+  "resetDataConfirm": "您确定要删除所有交易、借贷记录和提醒吗？此操作无法撤销。",
+  "reset": "重置",
+  "resetSuccessful": "所有应用数据已成功重置。",
+  "selectLanguage": "选择语言",
+  "selectCurrency": "选择货币",
+  "profile": "个人资料",
+  "guest": "访客"
 }

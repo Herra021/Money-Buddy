@@ -915,6 +915,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'BORROW & LEND'**
   String get tagBorrowLend;
+
+  /// No description provided for @resetData.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset App Data'**
+  String get resetData;
+
+  /// No description provided for @resetDataConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete all transactions, borrow/lend records, and reminders? This cannot be undone.'**
+  String get resetDataConfirm;
+
+  /// No description provided for @reset.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset'**
+  String get reset;
+
+  /// No description provided for @resetSuccessful.
+  ///
+  /// In en, this message translates to:
+  /// **'All app data has been successfully reset.'**
+  String get resetSuccessful;
+
+  /// No description provided for @selectLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Language'**
+  String get selectLanguage;
+
+  /// No description provided for @selectCurrency.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Currency'**
+  String get selectCurrency;
+
+  /// No description provided for @profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
+
+  /// No description provided for @guest.
+  ///
+  /// In en, this message translates to:
+  /// **'Guest'**
+  String get guest;
 }
 
 class _AppLocalizationsDelegate

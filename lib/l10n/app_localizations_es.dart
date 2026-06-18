@@ -428,4 +428,30 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'PRESTAR Y PEDIR';
+
+  @override
+  String get resetData => 'Restablecer datos de la aplicación';
+
+  @override
+  String get resetDataConfirm =>
+      '¿Está seguro de que desea eliminar todas las transacciones, registros de préstamo/préstamo y recordatorios? Esta acción no se puede deshacer.';
+
+  @override
+  String get reset => 'Restablecer';
+
+  @override
+  String get resetSuccessful =>
+      'Todos los datos de la aplicación se han restablecido correctamente.';
+
+  @override
+  String get selectLanguage => 'Seleccionar idioma';
+
+  @override
+  String get selectCurrency => 'Seleccionar moneda';
+
+  @override
+  String get profile => 'Perfil';
+
+  @override
+  String get guest => 'Invitado';
 }

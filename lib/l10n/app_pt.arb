@@ -153,5 +153,13 @@
   "tagGetStarted": "COMEÇAR",
   "tagFastEntry": "ENTRADA RÁPIDA",
   "tagVoiceEntry": "ENTRADA DE VOZ",
-  "tagBorrowLend": "EMPRÉSTIMOS"
+  "tagBorrowLend": "EMPRÉSTIMOS",
+  "resetData": "Redefinir dados do aplicativo",
+  "resetDataConfirm": "Tem certeza de que deseja excluir todas as transações, registros de empréstimos e lembretes? Esta ação não pode ser desfeita.",
+  "reset": "Redefinir",
+  "resetSuccessful": "Todos os dados do aplicativo foram redefinidos com sucesso.",
+  "selectLanguage": "Selecionar idioma",
+  "selectCurrency": "Selecionar moeda",
+  "profile": "Perfil",
+  "guest": "Convidado"
 }

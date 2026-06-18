@@ -246,4 +246,13 @@ class DatabaseHelper {
       orderBy: 'name ASC',
     );
   }
+
+  Future<void> clearAllData() async {
+    final db = await database;
+    await db.transaction((txn) async {
+      await txn.delete('transactions');
+      await txn.delete('borrow_lend');
+      await txn.delete('reminders');
+    });
+  }
 }

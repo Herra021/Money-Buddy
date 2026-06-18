@@ -427,4 +427,30 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'EMPRUNTER & PRÊTER';
+
+  @override
+  String get resetData => 'Réinitialiser les données de l\'application';
+
+  @override
+  String get resetDataConfirm =>
+      'Êtes-vous sûr de vouloir supprimer toutes les transactions, tous les enregistrements d\'emprunt/prêt et tous les rappels ? Cette action est irréversible.';
+
+  @override
+  String get reset => 'Réinitialiser';
+
+  @override
+  String get resetSuccessful =>
+      'Toutes les données de l\'application ont été réinitialisées avec succès.';
+
+  @override
+  String get selectLanguage => 'Choisir la langue';
+
+  @override
+  String get selectCurrency => 'Sélectionner la devise';
+
+  @override
+  String get profile => 'Profil';
+
+  @override
+  String get guest => 'Invité';
 }

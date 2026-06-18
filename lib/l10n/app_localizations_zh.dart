@@ -412,4 +412,28 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get tagBorrowLend => '借贷管理';
+
+  @override
+  String get resetData => '重置应用数据';
+
+  @override
+  String get resetDataConfirm => '您确定要删除所有交易、借贷记录和提醒吗？此操作无法撤销。';
+
+  @override
+  String get reset => '重置';
+
+  @override
+  String get resetSuccessful => '所有应用数据已成功重置。';
+
+  @override
+  String get selectLanguage => '选择语言';
+
+  @override
+  String get selectCurrency => '选择货币';
+
+  @override
+  String get profile => '个人资料';
+
+  @override
+  String get guest => '访客';
 }

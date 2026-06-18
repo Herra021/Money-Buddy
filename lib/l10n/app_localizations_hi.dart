@@ -423,4 +423,29 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'उधार और देना';
+
+  @override
+  String get resetData => 'ऐप डेटा रीसेट करें';
+
+  @override
+  String get resetDataConfirm =>
+      'क्या आप वाकई सभी लेनदेन, उधार/लेन रिकॉर्ड और अनुस्मारक हटाना चाहते हैं? इसे वापस नहीं लिया जा सकता।';
+
+  @override
+  String get reset => 'रीसेट';
+
+  @override
+  String get resetSuccessful => 'सभी ऐप डेटा सफलतापूर्वक रीसेट कर दिया गया है।';
+
+  @override
+  String get selectLanguage => 'भाषा चुनें';
+
+  @override
+  String get selectCurrency => 'मुद्रा चुनें';
+
+  @override
+  String get profile => 'प्रोफ़ाइल';
+
+  @override
+  String get guest => 'अतिथि';
 }

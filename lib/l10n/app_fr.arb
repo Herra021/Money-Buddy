@@ -153,5 +153,13 @@
   "tagGetStarted": "COMMENCER",
   "tagFastEntry": "SAISIE RAPIDE",
   "tagVoiceEntry": "SAISIE VOCALE",
-  "tagBorrowLend": "EMPRUNTER & PRÊTER"
+  "tagBorrowLend": "EMPRUNTER & PRÊTER",
+  "resetData": "Réinitialiser les données de l'application",
+  "resetDataConfirm": "Êtes-vous sûr de vouloir supprimer toutes les transactions, tous les enregistrements d'emprunt/prêt et tous les rappels ? Cette action est irréversible.",
+  "reset": "Réinitialiser",
+  "resetSuccessful": "Toutes les données de l'application ont été réinitialisées avec succès.",
+  "selectLanguage": "Choisir la langue",
+  "selectCurrency": "Sélectionner la devise",
+  "profile": "Profil",
+  "guest": "Invité"
 }

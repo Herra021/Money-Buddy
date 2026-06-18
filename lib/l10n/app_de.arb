@@ -153,5 +153,13 @@
   "tagGetStarted": "LOSLEGEN",
   "tagFastEntry": "SCHNELLEINGABE",
   "tagVoiceEntry": "SPRACHEINGABE",
-  "tagBorrowLend": "LEIHEN & VERLEIHEN"
+  "tagBorrowLend": "LEIHEN & VERLEIHEN",
+  "resetData": "App-Daten zurücksetzen",
+  "resetDataConfirm": "Sind Sie sicher, dass Sie alle Transaktionen, Leih-/Ausleihdatensätze und Erinnerungen löschen möchten? Dies kann nicht rückgängig gemacht werden.",
+  "reset": "Zurücksetzen",
+  "resetSuccessful": "Alle App-Daten wurden erfolgreich zurückgesetzt.",
+  "selectLanguage": "Sprache auswählen",
+  "selectCurrency": "Währung auswählen",
+  "profile": "Profil",
+  "guest": "Gast"
 }

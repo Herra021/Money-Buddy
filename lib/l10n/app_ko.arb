@@ -153,5 +153,13 @@
   "tagGetStarted": "시작하기",
   "tagFastEntry": "빠른 입력",
   "tagVoiceEntry": "음성 입력",
-  "tagBorrowLend": "빌림 & 빌려줌"
+  "tagBorrowLend": "빌림 & 빌려줌",
+  "resetData": "앱 데이터 초기화",
+  "resetDataConfirm": "모든 거래, 빌리고 빌려준 기록, 리마인더를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+  "reset": "초기화",
+  "resetSuccessful": "모든 앱 데이터가 성공적으로 초기화되었습니다.",
+  "selectLanguage": "언어 선택",
+  "selectCurrency": "통화 선택",
+  "profile": "프로필",
+  "guest": "게스트"
 }

@@ -425,4 +425,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'BORROW & LEND';
+
+  @override
+  String get resetData => 'Reset App Data';
+
+  @override
+  String get resetDataConfirm =>
+      'Are you sure you want to delete all transactions, borrow/lend records, and reminders? This cannot be undone.';
+
+  @override
+  String get reset => 'Reset';
+
+  @override
+  String get resetSuccessful => 'All app data has been successfully reset.';
+
+  @override
+  String get selectLanguage => 'Select Language';
+
+  @override
+  String get selectCurrency => 'Select Currency';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get guest => 'Guest';
 }

@@ -425,4 +425,30 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'EMPRÉSTIMOS';
+
+  @override
+  String get resetData => 'Redefinir dados do aplicativo';
+
+  @override
+  String get resetDataConfirm =>
+      'Tem certeza de que deseja excluir todas as transações, registros de empréstimos e lembretes? Esta ação não pode ser desfeita.';
+
+  @override
+  String get reset => 'Redefinir';
+
+  @override
+  String get resetSuccessful =>
+      'Todos os dados do aplicativo foram redefinidos com sucesso.';
+
+  @override
+  String get selectLanguage => 'Selecionar idioma';
+
+  @override
+  String get selectCurrency => 'Selecionar moeda';
+
+  @override
+  String get profile => 'Perfil';
+
+  @override
+  String get guest => 'Convidado';
 }

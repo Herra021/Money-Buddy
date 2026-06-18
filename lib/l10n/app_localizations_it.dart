@@ -427,4 +427,30 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'PRESTITI E DEBITI';
+
+  @override
+  String get resetData => 'Reimposta dati applicazione';
+
+  @override
+  String get resetDataConfirm =>
+      'Sei sicuro di voler eliminare tutte le transazioni, i record di prestito/debito e i promemoria? Questa azione non può essere annullata.';
+
+  @override
+  String get reset => 'Reimposta';
+
+  @override
+  String get resetSuccessful =>
+      'Tutti i dati dell\'applicazione sono stati reimpostati con successo.';
+
+  @override
+  String get selectLanguage => 'Seleziona lingua';
+
+  @override
+  String get selectCurrency => 'Seleziona valuta';
+
+  @override
+  String get profile => 'Profilo';
+
+  @override
+  String get guest => 'Ospite';
 }

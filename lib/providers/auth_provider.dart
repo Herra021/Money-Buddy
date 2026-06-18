@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-// import 'package:sign_in_with_apple/sign_in_with_apple.dart'; // Will add proper apple sign in logic later if needed, but standard firebase auth flow handles most.
-
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../core/database/database_helper.dart';
+import '../core/notifications/notification_service.dart';
 
 final firebaseAuthProvider = Provider<FirebaseAuth>((ref) {
   return FirebaseAuth.instance;
@@ -78,6 +78,17 @@ class AuthNotifier extends StateNotifier<AsyncValue<void>> {
   Future<void> deleteAccount() async {
     state = const AsyncLoading();
     try {
+      // 1. Wipe local database tables
+      await DatabaseHelper().clearAllData();
+
+      // 2. Clear scheduled local notifications
+      await NotificationService().cancelAll();
+
+      // 3. Clear all shared preferences (returns app to clean factory settings)
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.clear();
+
+      // 4. Perform auth deletion
       final user = _auth.currentUser;
       if (user != null) {
         await user.delete();

@@ -421,4 +421,29 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'الاستدانة والإقراض';
+
+  @override
+  String get resetData => 'إعادة ضبط بيانات التطبيق';
+
+  @override
+  String get resetDataConfirm =>
+      'هل أنت متأكد من رغبتك في حذف جميع المعاملات وسجلات الاستعارة والإعارة والتذكيرات؟ لا يمكن التراجع عن هذا الإجراء.';
+
+  @override
+  String get reset => 'إعادة ضبط';
+
+  @override
+  String get resetSuccessful => 'تم إعادة ضبط جميع بيانات التطبيق بنجاح.';
+
+  @override
+  String get selectLanguage => 'اختر اللغة';
+
+  @override
+  String get selectCurrency => 'اختر العملة';
+
+  @override
+  String get profile => 'الملف الشخصي';
+
+  @override
+  String get guest => 'زائر';
 }

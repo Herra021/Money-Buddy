@@ -426,4 +426,30 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'LEIHEN & VERLEIHEN';
+
+  @override
+  String get resetData => 'App-Daten zurücksetzen';
+
+  @override
+  String get resetDataConfirm =>
+      'Sind Sie sicher, dass Sie alle Transaktionen, Leih-/Ausleihdatensätze und Erinnerungen löschen möchten? Dies kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get reset => 'Zurücksetzen';
+
+  @override
+  String get resetSuccessful =>
+      'Alle App-Daten wurden erfolgreich zurückgesetzt.';
+
+  @override
+  String get selectLanguage => 'Sprache auswählen';
+
+  @override
+  String get selectCurrency => 'Währung auswählen';
+
+  @override
+  String get profile => 'Profil';
+
+  @override
+  String get guest => 'Gast';
 }

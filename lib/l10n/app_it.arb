@@ -153,5 +153,13 @@
   "tagGetStarted": "INIZIA",
   "tagFastEntry": "INSERIMENTO RAPIDO",
   "tagVoiceEntry": "INSERIMENTO VOCALE",
-  "tagBorrowLend": "PRESTITI E DEBITI"
+  "tagBorrowLend": "PRESTITI E DEBITI",
+  "resetData": "Reimposta dati applicazione",
+  "resetDataConfirm": "Sei sicuro di voler eliminare tutte le transazioni, i record di prestito/debito e i promemoria? Questa azione non può essere annullata.",
+  "reset": "Reimposta",
+  "resetSuccessful": "Tutti i dati dell'applicazione sono stati reimpostati con successo.",
+  "selectLanguage": "Seleziona lingua",
+  "selectCurrency": "Seleziona valuta",
+  "profile": "Profilo",
+  "guest": "Ospite"
 }

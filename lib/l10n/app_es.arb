@@ -153,5 +153,13 @@
   "tagGetStarted": "EMPEZAR",
   "tagFastEntry": "ENTRADA RÁPIDA",
   "tagVoiceEntry": "ENTRADA DE VOZ",
-  "tagBorrowLend": "PRESTAR Y PEDIR"
+  "tagBorrowLend": "PRESTAR Y PEDIR",
+  "resetData": "Restablecer datos de la aplicación",
+  "resetDataConfirm": "¿Está seguro de que desea eliminar todas las transacciones, registros de préstamo/préstamo y recordatorios? Esta acción no se puede deshacer.",
+  "reset": "Restablecer",
+  "resetSuccessful": "Todos los datos de la aplicación se han restablecido correctamente.",
+  "selectLanguage": "Seleccionar idioma",
+  "selectCurrency": "Seleccionar moneda",
+  "profile": "Perfil",
+  "guest": "Invitado"
 }

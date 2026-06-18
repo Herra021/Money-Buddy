@@ -413,4 +413,29 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get tagBorrowLend => '貸し借り';
+
+  @override
+  String get resetData => 'アプリデータをリセット';
+
+  @override
+  String get resetDataConfirm =>
+      'すべての取引、貸し借り記録、およびリマインダーを削除してもよろしいですか？この操作は取り消せません。';
+
+  @override
+  String get reset => 'リセット';
+
+  @override
+  String get resetSuccessful => 'すべてのアプリデータが正常にリセットされました。';
+
+  @override
+  String get selectLanguage => '言語を選択';
+
+  @override
+  String get selectCurrency => '通貨を選択';
+
+  @override
+  String get profile => 'プロフィール';
+
+  @override
+  String get guest => 'ゲスト';
 }

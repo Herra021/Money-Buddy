@@ -153,5 +153,13 @@
   "tagGetStarted": "НАЧАТЬ",
   "tagFastEntry": "БЫСТРЫЙ ВВОД",
   "tagVoiceEntry": "ГОЛОСОВОЙ ВВОД",
-  "tagBorrowLend": "ДОЛГИ"
+  "tagBorrowLend": "ДОЛГИ",
+  "resetData": "Сбросить данные приложения",
+  "resetDataConfirm": "Вы уверены, что хотите удалить все транзакции, записи о займах и напоминания? Это действие нельзя отменить.",
+  "reset": "Сбросить",
+  "resetSuccessful": "Все данные приложения успешно сброшены.",
+  "selectLanguage": "Выбрать язык",
+  "selectCurrency": "Выбрать валюту",
+  "profile": "Профиль",
+  "guest": "Гость"
 }

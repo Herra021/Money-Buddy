@@ -153,5 +153,13 @@
   "tagGetStarted": "GET STARTED",
   "tagFastEntry": "FAST ENTRY",
   "tagVoiceEntry": "VOICE ENTRY",
-  "tagBorrowLend": "BORROW & LEND"
+  "tagBorrowLend": "BORROW & LEND",
+  "resetData": "Reset App Data",
+  "resetDataConfirm": "Are you sure you want to delete all transactions, borrow/lend records, and reminders? This cannot be undone.",
+  "reset": "Reset",
+  "resetSuccessful": "All app data has been successfully reset.",
+  "selectLanguage": "Select Language",
+  "selectCurrency": "Select Currency",
+  "profile": "Profile",
+  "guest": "Guest"
 }

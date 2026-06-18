@@ -416,4 +416,29 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get tagBorrowLend => '빌림 & 빌려줌';
+
+  @override
+  String get resetData => '앱 데이터 초기화';
+
+  @override
+  String get resetDataConfirm =>
+      '모든 거래, 빌리고 빌려준 기록, 리마인더를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.';
+
+  @override
+  String get reset => '초기화';
+
+  @override
+  String get resetSuccessful => '모든 앱 데이터가 성공적으로 초기화되었습니다.';
+
+  @override
+  String get selectLanguage => '언어 선택';
+
+  @override
+  String get selectCurrency => '통화 선택';
+
+  @override
+  String get profile => '프로필';
+
+  @override
+  String get guest => '게스트';
 }

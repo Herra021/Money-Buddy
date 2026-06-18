@@ -428,4 +428,29 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get tagBorrowLend => 'ДОЛГИ';
+
+  @override
+  String get resetData => 'Сбросить данные приложения';
+
+  @override
+  String get resetDataConfirm =>
+      'Вы уверены, что хотите удалить все транзакции, записи о займах и напоминания? Это действие нельзя отменить.';
+
+  @override
+  String get reset => 'Сбросить';
+
+  @override
+  String get resetSuccessful => 'Все данные приложения успешно сброшены.';
+
+  @override
+  String get selectLanguage => 'Выбрать язык';
+
+  @override
+  String get selectCurrency => 'Выбрать валюту';
+
+  @override
+  String get profile => 'Профиль';
+
+  @override
+  String get guest => 'Гость';
 }
