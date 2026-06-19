@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_theme.dart';
 import '../../core/router/app_router.dart';
 import '../../l10n/app_localizations.dart';
+import '../voice/voice_assistant_screen.dart';
 
 class MainShell extends StatelessWidget {
   final Widget child;
@@ -23,12 +25,18 @@ class MainShell extends StatelessWidget {
 
     return Scaffold(
       body: child,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _showAddModal(context),
-        backgroundColor: AppColors.primaryContainer,
-        foregroundColor: Colors.white,
-        elevation: 4,
-        child: const Icon(Icons.add, size: 28),
+      floatingActionButton: GestureDetector(
+        onLongPress: () {
+          HapticFeedback.mediumImpact();
+          showVoiceAssistant(context, autoStart: true);
+        },
+        child: FloatingActionButton(
+          onPressed: () => showVoiceAssistant(context),
+          backgroundColor: AppColors.primaryContainer,
+          foregroundColor: Colors.white,
+          elevation: 4,
+          child: const Icon(Icons.mic_rounded, size: 28),
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: _BottomNav(

@@ -16,6 +16,7 @@ import '../../screens/borrow_lend/add_borrow_lend_screen.dart';
 import '../../screens/reminders/reminders_screen.dart';
 import '../../screens/settings/settings_screen.dart';
 import '../../screens/shell/main_shell.dart';
+import '../../screens/voice/voice_assistant_screen.dart';
 
 class AppRoutes {
   static const onboarding = '/onboarding';
@@ -28,6 +29,7 @@ class AppRoutes {
   static const addBorrowLend = '/add-borrow-lend';
   static const reminders = '/reminders';
   static const settings = '/settings';
+  static const voice = '/voice';
 }
 
 class GoRouterRefreshStream extends ChangeNotifier {
@@ -111,6 +113,10 @@ final appRouterProvider = Provider<GoRouter>((ref) {
     GoRoute(
       path: AppRoutes.settings,
       builder: (context, state) => const SettingsScreen(),
+    ),
+    GoRoute(
+      path: AppRoutes.voice,
+      builder: (context, state) => const VoiceAssistantScreen(),
     ),
   ],
 );
